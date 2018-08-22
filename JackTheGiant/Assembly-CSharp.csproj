@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Cloud Collectors Scripts\CloudCollector.cs" />
     <Compile Include="Assets\Scripts\Cloud Collectors Scripts\CloudSpawner.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerBounds.cs" />
     <None Include="Assets\Font\readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Github/Unity/JackTheGiant/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
