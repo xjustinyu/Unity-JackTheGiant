@@ -257,6 +257,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -271,6 +272,18 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672d954fc3ac0de44b150886c4e91fa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveCamera: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -894,6 +907,7 @@ GameObject:
   - component: {fileID: 1135129605}
   - component: {fileID: 1135129607}
   - component: {fileID: 1135129606}
+  - component: {fileID: 1135129608}
   m_Layer: 0
   m_Name: Cloud Collector
   m_TagString: Untagged
@@ -950,6 +964,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10, y: 0.1}
   m_EdgeRadius: 0
+--- !u!50 &1135129608
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1135129604}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1225872208
 Prefab:
   m_ObjectHideFlags: 0
@@ -988,6 +1022,21 @@ Prefab:
     - target: {fileID: 4097305363850820, guid: 5228aef191aa2e14d95595966e57a5a6, type: 2}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 50476150180343314, guid: 5228aef191aa2e14d95595966e57a5a6,
+        type: 2}
+      propertyPath: m_LinearDrag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 50476150180343314, guid: 5228aef191aa2e14d95595966e57a5a6,
+        type: 2}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50476150180343314, guid: 5228aef191aa2e14d95595966e57a5a6,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5228aef191aa2e14d95595966e57a5a6, type: 2}
@@ -1075,6 +1124,7 @@ GameObject:
   - component: {fileID: 1725699712}
   - component: {fileID: 1725699713}
   - component: {fileID: 1725699714}
+  - component: {fileID: 1725699715}
   m_Layer: 0
   m_Name: Cloud Spawner
   m_TagString: Untagged
@@ -1141,6 +1191,26 @@ MonoBehaviour:
   - {fileID: 1317042161}
   - {fileID: 572434622}
   collectables: []
+--- !u!50 &1725699715
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1725699711}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1735129680 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1053391905402486, guid: 5df60be3290fb6e4dad3a58bbce6edc0,
