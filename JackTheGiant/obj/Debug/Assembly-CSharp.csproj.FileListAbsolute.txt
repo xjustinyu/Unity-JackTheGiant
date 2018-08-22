@@ -165,3 +165,4 @@ C:\Github\Unity\JackTheGiant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.
 C:\Github\Unity\JackTheGiant\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Github\Unity\JackTheGiant\obj\Debug\Assembly-CSharp.dll
 C:\Github\Unity\JackTheGiant\obj\Debug\Assembly-CSharp.pdb
+C:\Github\Unity\JackTheGiant\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
